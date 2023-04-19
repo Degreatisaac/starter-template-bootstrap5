@@ -1,0 +1,61 @@
+#navbar {
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+}
+
+
+@keyframes myAnimation {
+    0%{
+        transform: translateY(-100px);
+    }
+ 
+    to { transform: translateY(0px); }
+  }
+
+  
+#right {
+    
+    animation-name: myText;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    
+}
+
+  @keyframes myText {
+    0%{
+        transform: translateX(-400px);
+    }
+ 
+    to { transform: translateX(0px); }
+  }
+
+  #person {
+    animation-name: person;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+  }
+
+  @keyframes person {
+    0%{
+        transform: translateX(400px);
+    }
+ 
+    to { transform: translateX(0px); }
+  }
+
+  #about {
+    
+    animation-name: about;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+  }
+
+  
+  @keyframes about {
+    0%{
+        transform: translateY(400px);
+    }
+ 
+    to { transform: translateY(0px); }
+  }
